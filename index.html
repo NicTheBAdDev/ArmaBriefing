@@ -1,1 +1,108 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Operations Board | Arma 3 Missions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
 
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">A3 OPERATIONS BOARD</p>
+      <h1>Missionsdatenbank</h1>
+    </div>
+    <nav>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="mission-list" id="missions">
+      <div class="panel-title">
+        <span>Aktive Missionen</span>
+        <small id="missionCount"></small>
+      </div>
+      <div id="missionCards"></div>
+    </aside>
+
+    <section class="mission-detail">
+      <section class="hero panel">
+        <div>
+          <p class="eyebrow" id="missionCodename">OPERATION</p>
+          <h2 id="missionTitle"></h2>
+          <p id="scenarioText"></p>
+        </div>
+        <div class="status-card">
+          <span>Status</span>
+          <strong id="missionStatus"></strong>
+        </div>
+      </section>
+
+      <section class="grid-2">
+        <article class="panel" id="briefing">
+          <h3>Briefing</h3>
+          <p id="briefingText"></p>
+          <p id="briefingText2"></p>
+        </article>
+
+        <article class="panel">
+          <h3>Beteiligte Fraktionen</h3>
+          <div class="faction-grid" id="factions"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <h3>Interaktive Karte</h3>
+            <p>Hover über Marker für Kurzinfos, Klick für Details.</p>
+          </div>
+          <div class="coords" id="mapName"></div>
+        </div>
+
+        <div class="map-wrap">
+          <img id="mapImage" class="map-image" src="" alt="Missionskarte" />
+          <div id="mapMarkers" class="map-markers"></div>
+          <div id="markerTooltip" class="tooltip" hidden></div>
+        </div>
+
+        <div class="intel-box" id="intelBox">
+          <strong>Intel</strong>
+          <p>Wähle einen Kartenpunkt aus.</p>
+        </div>
+      </section>
+
+      <section class="panel" id="controls">
+        <h3>Steuerung & Apex-Preset</h3>
+        <div class="controls-grid">
+          <div>
+            <h4>Wichtige Tasten</h4>
+            <ul id="keybinds"></ul>
+          </div>
+          <div>
+            <h4>Preset auf „Arma 3 Apex“ ändern</h4>
+            <ol>
+              <li>Arma 3 starten.</li>
+              <li>Im Hauptmenü <strong>Optionen</strong> öffnen.</li>
+              <li><strong>Steuerung</strong> auswählen.</li>
+              <li>Oben bei <strong>Preset / Schema</strong> das Preset <strong>Arma 3 Apex</strong> wählen.</li>
+              <li>Mit <strong>OK / Anwenden</strong> speichern.</li>
+              <li>Mission neu laden, falls Tasten im Szenario nicht sofort greifen.</li>
+            </ol>
+            <p class="hint">Hinweis: Je nach Sprache/Version kann der Menüpunkt leicht anders heißen.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <span>Made for Arma 3 communities · Static HTML/CSS/JS</span>
+  </footer>
+
+  <script src="missions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
