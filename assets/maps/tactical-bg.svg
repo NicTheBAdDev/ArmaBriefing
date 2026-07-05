@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#10160d"/>
+      <stop offset="1" stop-color="#243018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g)"/>
+  <g stroke="#b5d66b" stroke-opacity=".16" fill="none">
+    <path d="M0 90 H1200 M0 180 H1200 M0 270 H1200 M0 360 H1200 M0 450 H1200 M0 540 H1200 M0 630 H1200"/>
+    <path d="M100 0 V700 M200 0 V700 M300 0 V700 M400 0 V700 M500 0 V700 M600 0 V700 M700 0 V700 M800 0 V700 M900 0 V700 M1000 0 V700 M1100 0 V700"/>
+    <circle cx="730" cy="330" r="190"/>
+    <circle cx="730" cy="330" r="90"/>
+    <path d="M620 80 L1020 240 L940 620 L520 510 Z"/>
+  </g>
+  <g fill="#b5d66b" fill-opacity=".16" font-family="Consolas, monospace" font-size="34">
+    <text x="70" y="90">GRID 042</text>
+    <text x="790" y="610">OPS</text>
+  </g>
+</svg>

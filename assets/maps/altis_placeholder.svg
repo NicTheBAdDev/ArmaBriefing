@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#182116"/>
+  <g stroke="#9caf74" stroke-opacity=".22" stroke-width="1">
+    <path d="M0 70 H1200 M0 140 H1200 M0 210 H1200 M0 280 H1200 M0 350 H1200 M0 420 H1200 M0 490 H1200 M0 560 H1200 M0 630 H1200"/>
+    <path d="M100 0 V700 M200 0 V700 M300 0 V700 M400 0 V700 M500 0 V700 M600 0 V700 M700 0 V700 M800 0 V700 M900 0 V700 M1000 0 V700 M1100 0 V700"/>
+  </g>
+  <path d="M231 161 C321 80 512 84 642 118 C824 165 958 282 1006 401 C1051 512 1007 617 861 641 C688 668 573 575 438 578 C328 581 239 639 161 557 C84 476 116 265 231 161Z" fill="#3c4b2d"/>
+  <path d="M278 198 C389 136 518 143 676 184 C779 211 885 302 919 403 C941 468 909 529 824 554 C704 589 601 509 477 523 C374 536 284 583 221 513 C157 443 190 247 278 198Z" fill="#56673c"/>
+  <g fill="#202a1d" opacity=".7">
+    <circle cx="540" cy="318" r="72"/>
+    <circle cx="733" cy="415" r="52"/>
+    <circle cx="339" cy="393" r="44"/>
+  </g>
+  <g fill="#b5d66b" opacity=".45" font-family="Consolas, monospace" font-size="26">
+    <text x="35" y="45">ALTIS - TACTICAL MAP</text>
+    <text x="1010" y="665">GRID REF</text>
+  </g>
+</svg>
