@@ -177,41 +177,6 @@ const missions = [
   ],
 
   markers: [
-    {
-      title: "Ausgangspunkt",
-      type: "friendly",
-      x: 15,
-      y: 75,
-      info: "Sammelpunkt des Vorauskommandos. Von hier aus beginnt die Sicherung der Versorgungsroute."
-    },
-    {
-      title: "Münsingen",
-      type: "objective",
-      x: 30,
-      y: 60,
-      info: "Ortschaft entlang der vorgesehenen Versorgungsroute. Mögliche Hindernisse und zivile Aktivitäten müssen überprüft werden."
-    },
-    {
-      title: "Versorgungsroute",
-      type: "objective",
-      x: 50,
-      y: 45,
-      info: "Die Straße muss auf Hindernisse, beschädigte Fahrzeuge und mögliche Sprengfallen überprüft werden."
-    },
-    {
-      title: "Worb",
-      type: "objective",
-      x: 70,
-      y: 30,
-      info: "Ortschaft in der Nähe des Zielgebietes. Die Sicherheitslage ist unklar."
-    },
-    {
-      title: "Humanitärer Versorgungspunkt",
-      type: "friendly",
-      x: 85,
-      y: 20,
-      info: "Befestigte Stellung zwischen Münsingen und Worb. Hier warten zahlreiche Zivilisten auf dringend benötigte Lebensmittel und Medikamente."
-    }
   ],
 
   keybinds: [
