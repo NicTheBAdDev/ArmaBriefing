@@ -138,4 +138,89 @@ const missions = [
       ["Funk", "Feststelltaste"]
     ]
   },
-];
+
+//==================================//
+//          NEUE MISSION            //
+//==================================//
+
+{
+  id: "op-skeldmark-winterhilfe",
+  codename: "Operation Winterhilfe",
+  title: "Der letzte Weg durch den Schnee",
+  status: "In Planung",
+  mapName: "Napf Winter",
+  mapImage: "assets/maps/placeholder_tactical_map.png",
+
+  scenario: "Seit mehreren Jahren ist das Grenzgebiet zwischen Skeldmark und seinem Nachbarstaat politisch umstritten. Beide Nationen erheben Ansprüche auf die Region, deren Bevölkerung zunehmend unter den Folgen des Konflikts leidet. Besonders der harte Winter hat die humanitäre Lage verschärft. Straßen sind beschädigt, Versorgungswege unterbrochen und zahlreiche Ortschaften von regelmäßigen Hilfslieferungen abgeschnitten. Zwischen Münsingen und Worb befindet sich eine befestigte Stellung, die mittlerweile auch als Zufluchtsort für zahlreiche Zivilisten dient. Lebensmittel, Medikamente und medizinische Ausrüstung werden dringend benötigt. Skeldmark hat deshalb einen humanitären Versorgungskonvoi zusammengestellt. Die militärische Präsenz in der Region ist jedoch umstritten. Teile der Bevölkerung stehen den skeldmarkischen Streitkräften skeptisch gegenüber, während bewaffnete Gruppen und mögliche Minenfelder die Sicherheit der Straßen gefährden.",
+
+  briefing: "Ihr seid Teil eines Vorauskommandos der Streitkräfte Skeldmarks. Eure Aufgabe besteht darin, die vorgesehene Versorgungsroute zwischen Münsingen und Worb zu erkunden und für einen nachfolgenden humanitären Konvoi freizumachen. Der Konvoi transportiert dringend benötigte Lebensmittel, Medikamente und medizinische Ausrüstung zu einer befestigten Stellung, in der zahlreiche Zivilisten Schutz suchen. Ihr fahrt dem Konvoi voraus und überprüft die Straße auf mögliche Gefahren. Dazu gehören Straßensperren, beschädigte Fahrzeuge, Minen und andere Hindernisse. Die Sicherheit des Konvois und der Zivilbevölkerung hat oberste Priorität. Ein Scheitern der Mission könnte die Versorgung der Menschen erheblich gefährden.",
+
+  briefing2: "Rechnet während eures Einsatzes mit unvorhergesehenen Situationen. Nicht jede Straßensperre stellt eine feindliche Handlung dar. Zivilisten könnten aus Verzweiflung protestieren, Hilfe benötigen oder versuchen, den Konvoi aufzuhalten. Begegnet der Bevölkerung mit Respekt und versucht, Konflikte zunächst durch Kommunikation zu lösen. Unterstützt Zivilisten bei Verkehrsunfällen und medizinischen Notfällen, sofern die Sicherheitslage dies zulässt. Verdächtige Gegenstände und mögliche Sprengfallen sind zu melden und durch qualifiziertes Personal zu untersuchen. Haltet die Verbindung zum Konvoi aufrecht und meldet, wenn Streckenabschnitte sicher passierbar sind. Der Einsatz gilt als erfolgreich, wenn der Versorgungskonvoi sein Ziel erreicht und die Hilfsgüter übergeben werden können.",
+
+  factions: [
+    {
+      name: "Streitkräfte Skeldmarks",
+      role: "Spieler Fraktion"
+    },
+    {
+      name: "Grenzbevölkerung",
+      role: "Neutral / Zivilisten"
+    },
+    {
+      name: "Bewaffnete Grenzmilizen",
+      role: "Potenzielle Gegnerische Fraktion"
+    },
+    {
+      name: "Humanitärer Versorgungskonvoi",
+      role: "Verbündete Fraktion"
+    }
+  ],
+
+  markers: [
+    {
+      title: "Ausgangspunkt",
+      type: "friendly",
+      x: 15,
+      y: 75,
+      info: "Sammelpunkt des Vorauskommandos. Von hier aus beginnt die Sicherung der Versorgungsroute."
+    },
+    {
+      title: "Münsingen",
+      type: "objective",
+      x: 30,
+      y: 60,
+      info: "Ortschaft entlang der vorgesehenen Versorgungsroute. Mögliche Hindernisse und zivile Aktivitäten müssen überprüft werden."
+    },
+    {
+      title: "Versorgungsroute",
+      type: "objective",
+      x: 50,
+      y: 45,
+      info: "Die Straße muss auf Hindernisse, beschädigte Fahrzeuge und mögliche Sprengfallen überprüft werden."
+    },
+    {
+      title: "Worb",
+      type: "objective",
+      x: 70,
+      y: 30,
+      info: "Ortschaft in der Nähe des Zielgebietes. Die Sicherheitslage ist unklar."
+    },
+    {
+      title: "Humanitärer Versorgungspunkt",
+      type: "friendly",
+      x: 85,
+      y: 20,
+      info: "Befestigte Stellung zwischen Münsingen und Worb. Hier warten zahlreiche Zivilisten auf dringend benötigte Lebensmittel und Medikamente."
+    }
+  ],
+
+  keybinds: [
+    ["Karte öffnen", "M"],
+    ["Kompass", "K"],
+    ["GPS", "Rechts Strg + M"],
+    ["Inventar", "I"],
+    ["Interaktion", "Leertaste / Mausradmenü"],
+    ["Funk", "Feststelltaste"]
+  ]
+},
+  ];
